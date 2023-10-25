@@ -1,0 +1,82 @@
+.container{
+ max-width: 250px;
+ max-height: 300px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+ border: 1px solid red;
+ padding: 10px;
+ text-align: justify;
+}
+.title{
+    text-align: center;
+}
+.imgContainer{
+ width: 150px;
+ height: 150px;
+ border: 1px solid blue;
+}
+.img{
+width: 100%;
+height: 100%;
+}
+.content{
+
+}
+.buttons{
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+}
+.btn{
+ padding: 10px;
+ border-radius: 5px;
+}
+.btn:hover{
+    background-color: aqua;
+}
+.Home{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+.cont{
+    margin: 30px;
+}
+.logo{
+    text-align: center;
+    color: red;
+    margin: 30px 0;
+    font-size: 100px;
+}
+.upContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.subContainer{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 30px;
+ background-color: aqua;
+ height: 70vh;
+ width: 40vw;
+ padding: 20px;
+ border: 1px solid transparent;
+ border-radius: 5px;
+}
+.input{
+padding: 10px;
+width: 100%;
+}
+.add{
+    padding: 15px;
+    margin-left: 30px;
+    position: relative;
+    bottom: 25px;
+}
